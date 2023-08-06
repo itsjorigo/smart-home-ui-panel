@@ -1,0 +1,22 @@
+.header {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.username {
+  font-size: 42px;
+}
+
+.header_tagline {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.profile_img {
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}

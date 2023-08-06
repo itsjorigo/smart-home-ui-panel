@@ -1,15 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 .App{
-    height: 90vh;
+    height: 100vh;
     padding: 32px;
     display: grid;
     grid-template-columns: 1fr 3fr 12fr;
     background-color: #18181c;
     gap: 16px;
+    font-family:"Inter";
 }
 
 .sidebar{
@@ -32,6 +34,18 @@
     padding: 32px;
 }
 
-.header{
-    font-size: 24px;
+.devices_section{
+    margin-top: 14px;
 }
+
+.devices_section_heading{
+    font-size: 20px;
+}
+
+.devices_container{
+    /* border: 1px solid red; */
+    margin-top: 16px;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
