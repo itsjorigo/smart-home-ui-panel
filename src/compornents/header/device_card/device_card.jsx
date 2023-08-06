@@ -4,11 +4,14 @@ import { PowerIcon } from "@heroicons/react/24/solid";
 
 function DeviceCard(props) {
   const [isOn, setIsOn] = useState(false);
-
   const state = isOn ? "On" : "Off";
+  //   const [count, setCount] = useState(0);
 
   const handleClick = () => {
     setIsOn(!isOn);
+    // setCount((n) => {
+    //     return n + 1;
+    // });
   };
 
   return (
