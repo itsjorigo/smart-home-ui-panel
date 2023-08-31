@@ -12,7 +12,7 @@ function Header() {
         <p className={s.header_tagline}>Your devices are under your control</p>
       </div>
       <div>
-        <img src={ProfileImg} alt="" className={s.profile_img} />
+        <img src={ProfileImg} alt="propic" className={s.profile_img} />
       </div>
     </div>
   );
