@@ -1,0 +1,24 @@
+.widget_time {
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+  }
+  
+  .widget_date {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .widget_weather {
+    margin-top: 8px;
+  }
+  
+  .widget_weather_temp {
+    color: white;
+  }
+  
+  .widget_weather_humidity {
+    color: white;
+  }
