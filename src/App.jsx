@@ -7,6 +7,7 @@ import { useState } from "react";
 function App() {
   const devices = [
     {
+      
       image:
         "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
       location: "Living Room",
@@ -26,7 +27,7 @@ function App() {
     },
     {
       image:
-        "https://images.unsplash.com/phoo-1643123182527-3bd30840e7ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "https://images.unsplash.com/photo-1632678891426-6cbfdd71fa72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1880&q=80",
       location: "Living Room",
       name: "CCTV",
     },
