@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .App{
@@ -55,4 +55,11 @@
     margin-bottom: 1.25rem;
     border-color: #000000;
     column-gap: 1rem;
+}
+
+.menubar_item_container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
 }
